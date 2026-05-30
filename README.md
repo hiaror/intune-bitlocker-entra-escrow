@@ -14,7 +14,7 @@ Two-path fleet design decided per device by a read-only survey before any change
 
 ## Repository Structure
 
-`scripts/` contains `Diag-BitLocker-KeyProtector-Status.ps1` (read-only fleet survey) and `Escrow-BitLocker-RecoveryKey-To-EntraID.ps1` (add protector and escrow, Path 1). `admin/` contains `Get-PlatformScriptRunStates.ps1` (read per-device script output via Graph), `Get-StoredScriptContent.ps1` (read server-side script content via Graph), and `Invoke-WindowsDeviceSync.ps1` (wake OMA-DM on all Windows devices via Graph). `sample-data/` contains a sanitized example of survey script output.
+`scripts/` contains `Diag-BitLocker-KeyProtector-Status.ps1` (read-only fleet survey), `Escrow-BitLocker-RecoveryKey-To-EntraID.ps1` (add protector and escrow, Path 1), `Get-PlatformScriptRunStates.ps1` (read per-device script output via Graph), `Get-StoredScriptContent.ps1` (read server-side script content via Graph), and `Invoke-WindowsDeviceSync.ps1` (wake OMA-DM on all Windows devices via Graph). `sample-data/` contains a sanitized example of survey script output.
 
 ## Prerequisites
 
