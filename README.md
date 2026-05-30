@@ -18,7 +18,7 @@ Two-path fleet design decided per device by a read-only survey before any change
 
 ## Prerequisites
 
-PowerShell 5.1 or 7.x; Microsoft Graph PowerShell SDK on the admin workstation for the `admin/` scripts; Microsoft Intune with Entra ID; Windows 10 or Windows 11 devices enrolled in Intune; TPM 2.0 for silent encryption on the Path 2 policy; each device must have a Microsoft Entra device object to be an escrow target.
+PowerShell 5.1 or 7.x; Microsoft Graph PowerShell SDK on the admin workstation for the Graph helper scripts in `scripts/`; Microsoft Intune with Entra ID; Windows 10 or Windows 11 devices enrolled in Intune; TPM 2.0 for silent encryption on the Path 2 policy; each device must have a Microsoft Entra device object to be an escrow target.
 
 ## Required Graph Scopes
 
